@@ -1,6 +1,6 @@
 #! /bin/bash
 
-read -p "If you want to know filename please type correct passwd " pass
+read -ps "If you want to know filename please type correct passwd " pass
 
 if [ $pass == "MahaDev" ]; then
    echo "Correct!! 
