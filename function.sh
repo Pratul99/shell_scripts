@@ -9,10 +9,12 @@ mydate(){
 Hello(){
     echo "Hi $1 !, how are you?"
     echo "Hi $2 !, nice to meet you"
+    return GREEN
 }
 
 echo "What is today's date"
 mydate
+echo "return value of my function $?"
 
 echo "-------------------------------------------------"
 
