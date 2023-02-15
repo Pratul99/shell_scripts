@@ -10,5 +10,15 @@ else
 fi
 
 
+echo "********************************************************************"
+
+if [ abcd == abcd ]; then
+   echo "EQUAL"
+fi
+
+if [ abcd !== abcd ]; then
+   echo "DIFFERENT"
+fi
+
 echo "Bye"
 echo "--*--"
