@@ -11,7 +11,7 @@ case $choice in
     "Maha Dev")
         echo "you choose Maha Dev"
         ;;
-    "*txt")
+     *."txt")
         echo "you choose txt file"
         ;;
     C)
