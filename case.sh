@@ -11,9 +11,19 @@ case $choice in
     "Maha Dev")
         echo "you choose Maha Dev"
         ;;
-     *."txt")
+    *."txt")
         echo "you choose txt file"
         ;;
+    1[2-100])
+        echo "you choose number"
+        ;;
+    [a-z])
+        echo "you choose lowercase letter"
+        ;;
+    [A-Z])
+        echo "you choose uppercase letter"
+        ;;
+        
     C)
         echo "you choose C"
         ;;
